@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Xanh Mono", monospace;
+    color: black;
+}
+
+body {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 150px;
+}
+
+.menu {
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    width: 700px;
+}
+
+.decoracion {
+    background: lightgreen;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100px;
+    height: 3150px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+.box-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 180px;
+}
+
+/* Estilos para el botón "Añadir Habilidad" */
+#addSkill {
+    background-color: lightgreen;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+#addSkill:hover {
+    background-color: green;
+}
+
+
+h1, h2, p, ol, li, ul, td, tr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+    list-style: none; 
+
+}
+
+table {
+    width: 50%;
+    margin: 5px;
+    border-collapse: collapse;
+    padding: 0;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ccc;
+}
+
+th,
+td {
+    padding: 10px 20px;
+    text-align: left;
+}
+
+footer {
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 2840px;
+    width: 100%;
+    height: 300px;
+}
+
+form {
+    width: 50%;
+    height: 230px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+}
+
+label {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="email"],
+textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    align-items: center;
+}
+
+input[type="submit"],
+#btnContactar { /* Estilos para el botón Contactar */
+    background-color: lightgreen;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 3px;
+    transition: background-color 0.3s ease; /* Transición suave para el cambio de color */
+}
+
+input[type="submit"]:hover,
+#btnContactar:hover {
+    background-color: green; /* Color al pasar el cursor sobre el botón */
+}

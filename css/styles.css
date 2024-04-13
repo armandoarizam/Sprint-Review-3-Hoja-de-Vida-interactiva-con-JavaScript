@@ -38,7 +38,7 @@ main {
     align-items: flex-start;
     justify-content: flex-start;
     width: 100px;
-    height: 3150px;
+    height: 3330px;
     margin: 0;
     padding: 0;
     position: absolute;
@@ -63,20 +63,17 @@ main {
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-
 }
 
 #addSkill:hover {
     background-color: green;
 }
 
-
 h1, h2, p, ol, li, ul, td, tr {
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: justify;
     list-style: none; 
-
 }
 
 table {
@@ -98,52 +95,91 @@ td {
     text-align: left;
 }
 
-footer {
-    position: absolute;
-    margin-left: 110px;
-    margin-top: 2840px;
-    width: 100%;
-    height: 300px;
-}
-
-form {
-    width: 50%;
-    height: 230px;
-    margin-top: 10px;
-    padding: 10px;
+/* Estilos para el formulario de contacto */
+.formulario-contacto {
+    margin-top: 2950px;
+    padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: white;
+    width: 80%;
+    max-width: 600px;
+    background-color: #f9f9f9;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
-label {
-    margin-top: 10px;
+.formulario-contacto h2 {
     margin-bottom: 10px;
 }
 
-input[type="email"],
-textarea {
-    width: 90%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    align-items: center;
+.formulario-contacto label {
+    display: block;
+    margin-bottom: 5px;
 }
 
-input[type="submit"],
-#btnContactar { /* Estilos para el botón Contactar */
+.formulario-contacto input,
+.formulario-contacto textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.formulario-contacto button {
     background-color: lightgreen;
     color: black;
     padding: 10px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    margin-top: 3px;
-    transition: background-color 0.3s ease; /* Transición suave para el cambio de color */
+    transition: background-color 0.3s ease;
 }
 
-input[type="submit"]:hover,
-#btnContactar:hover {
-    background-color: green; /* Color al pasar el cursor sobre el botón */
+.formulario-contacto button:hover {
+    background-color: green;
 }
+
+/* Estilos para el botón "Ver Proyectos" */
+#btnVerProyectos {
+    background-color: lightgreen;
+    color: black;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#btnVerProyectos:hover {
+    background-color: #ccc;
+}
+
+#btnCalificar {
+    margin-top: 3250px;
+    padding: 20px;
+    border: 1px solid lightgreen;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 300px;
+    background-color: lightgreen;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#btnCalificar:hover {
+    background-color: #ccc;
+}
+
